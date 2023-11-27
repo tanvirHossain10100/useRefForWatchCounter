@@ -1,0 +1,12 @@
+h2 {
+  text-align: center;
+}
+#timeBtn {
+  display: block;
+  width: 10%;
+  height: 30px;
+  margin: 0 auto;
+  background-color: purple;
+  color: white;
+  border-radius: 20px;
+}

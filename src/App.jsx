@@ -23,7 +23,6 @@ function App() {
   }, []);
   useEffect(() => {
     let timeInterver;
-    console.log(showTime);
     if (showTime) {
       timeInterver = setInterval(() => {
         const getTime = setTimer.current.textContent;

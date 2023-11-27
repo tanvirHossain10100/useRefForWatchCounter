@@ -34,13 +34,14 @@ function App() {
     }
     return () => clearInterval(timeInterver);
   }, [showTime]);
-  console.log(showTime);
 
   return (
     <>
       <h2 ref={setTimer}>0</h2>
       <h2 ref={setTimer2}>0</h2>
-      <button id="timeBtn" onClick={handleTime}>{showTime ? "Stop" : "Start"}</button>
+      <button id="timeBtn" onClick={handleTime}>
+        {showTime ? "Stop" : "Start"}
+      </button>
     </>
   );
 }
